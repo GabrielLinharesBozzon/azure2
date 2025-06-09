@@ -1,0 +1,79 @@
+# Laboratório Azure: Criação e Configuração de Máquina Virtual
+
+## 📚 Sobre o Projeto
+
+Este repositório documenta o processo de criação e configuração de uma máquina virtual (VM) no Microsoft Azure, reunindo resumos, anotações e dicas práticas para auxiliar nos estudos e em futuras implementações.
+
+---
+
+## 📝 Sumário
+
+- [Objetivo](#objetivo)
+- [Pré-requisitos](#pré-requisitos)
+- [Passo a Passo](#passo-a-passo)
+- [Dicas Úteis](#dicas-úteis)
+- [Imagens](#imagens)
+- [Referências](#referências)
+
+---
+
+## 🎯 Objetivo
+
+Praticar a criação de uma VM no Azure, documentando cada etapa e compartilhando aprendizados para facilitar revisões e consultas futuras.
+
+---
+
+## 🔧 Pré-requisitos
+
+- Conta ativa no [Microsoft Azure](https://portal.azure.com)
+- Navegador web atualizado
+- Conhecimentos básicos sobre máquinas virtuais
+
+---
+
+## 🚀 Passo a Passo
+
+1. **Acesse o Portal do Azure**  
+   Entre em [https://portal.azure.com](https://portal.azure.com).
+
+2. **Crie um novo recurso**  
+   Clique em “Criar um recurso” > “Máquina Virtual”.
+
+3. **Configure a máquina virtual**  
+   - Escolha o sistema operacional (ex: Ubuntu, Windows Server)
+   - Defina nome, região, tamanho e autenticação (senha ou chave SSH)
+   - Configure as opções de rede e armazenamento
+
+4. **Revise e crie**  
+   Verifique as configurações e clique em “Criar”.
+
+5. **Acesse sua VM**  
+   - Para Windows: utilize RDP
+   - Para Linux: utilize SSH
+
+---
+
+## 💡 Dicas Úteis
+
+- Utilize nomes claros para recursos e grupos de recursos.
+- Atenção à região escolhida para otimizar custos e desempenho.
+- Sempre exclua ou pare a VM após o uso para evitar cobranças desnecessárias.
+- Utilize a pasta `/images` para armazenar capturas de tela do processo.
+
+---
+
+## 🖼️ Imagens
+
+As capturas de tela do processo estão disponíveis na pasta [`/images`](./images).
+
+---
+
+## 📚 Referências
+
+- [Documentação Oficial Azure - Criar VM](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
+- [Guia de Markdown no GitHub](https://guides.github.com/features/mastering-markdown/)
+- [GitHub Docs](https://docs.github.com/pt)
+
+---
+
+> Projeto desenvolvido para fins de estudo na DIO 🚀
